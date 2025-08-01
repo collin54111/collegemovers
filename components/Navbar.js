@@ -14,16 +14,16 @@ export default function Navbar() {
     { href: '/contact', label: 'Contact' },
   ];
   return (
-    <header className="bg-white shadow">
-      <div className="container flex items-center justify-between py-4">
+    <header className="bg-secondary shadow">
+      <div className="container flex items-center justify-between py-4 text-white">
         <Link href="/">
           <a className="flex items-center space-x-3">
             <Image src="/No-circle-words.png" alt="The College Movers logo" width={40} height={40} />
-            <span className="font-semibold text-xl text-primary hidden sm:block">The College Movers</span>
+            <span className="font-semibold text-xl hidden sm:block">The College Movers</span>
           </a>
         </Link>
         <button
-          className="md:hidden text-2xl text-primary"
+          className="md:hidden text-2xl"
           aria-label="Toggle navigation menu"
           onClick={() => setOpen(!open)}
         >
@@ -35,8 +35,8 @@ export default function Navbar() {
               <li key={href} className="mb-2 md:mb-0">
                 <Link href={href}>
                   <a
-                    className={`text-gray-700 hover:text-primary transition-colors font-medium ${
-                      router.pathname === href ? 'text-primary font-semibold' : ''
+                    className={`transition-colors font-medium ${
+                      router.pathname === href ? 'text-primary font-semibold' : 'text-white hover:text-primary'
                     }`}
                     onClick={() => setOpen(false)}
                   >

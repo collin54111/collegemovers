@@ -81,7 +81,7 @@ export default function Home() {
         </div>
       </section>
       {/* Why Choose Us */}
-      <section className="py-16">
+      <section className="py-16 bg-secondary text-white">
         <div className="container">
           <h2 className="text-3xl font-semibold text-center mb-8">
             Why Choose The College Movers?
@@ -91,44 +91,73 @@ export default function Home() {
               <i className="fas fa-user-graduate text-primary text-3xl"></i>
               <div>
                 <h3 className="text-xl font-semibold mb-1">Student‑Run Experts</h3>
-                <p className="text-sm text-gray-600">We understand the unique needs of college students and their families.</p>
+                <p className="text-sm opacity-90">We understand the unique needs of college students and their families.</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <i className="fas fa-dollar-sign text-primary text-3xl"></i>
               <div>
                 <h3 className="text-xl font-semibold mb-1">Transparent Pricing</h3>
-                <p className="text-sm text-gray-600">Pay only for the time we work – no hidden fees.</p>
+                <p className="text-sm opacity-90">Pay only for the time we work – no hidden fees.</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <i className="fas fa-star text-primary text-3xl"></i>
               <div>
                 <h3 className="text-xl font-semibold mb-1">Top‑Rated Movers</h3>
-                <p className="text-sm text-gray-600">Our background‑checked movers deliver professional, 5‑star service.</p>
+                <p className="text-sm opacity-90">Our background‑checked movers deliver professional, 5‑star service.</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <i className="fas fa-sliders-h text-primary text-3xl"></i>
               <div>
                 <h3 className="text-xl font-semibold mb-1">Flexible Options</h3>
-                <p className="text-sm text-gray-600">Choose local, long‑distance or labor‑only services to match your move.</p>
+                <p className="text-sm opacity-90">Choose local, long‑distance or labor‑only services to match your move.</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <i className="fas fa-hand-holding-heart text-primary text-3xl"></i>
               <div>
                 <h3 className="text-xl font-semibold mb-1">Giving Back</h3>
-                <p className="text-sm text-gray-600">We donate 1% of revenue – half to scholarships and half to local nonprofits.</p>
+                <p className="text-sm opacity-90">We donate 1% of revenue – half to scholarships and half to local nonprofits.</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <i className="fas fa-box-open text-primary text-3xl"></i>
               <div>
                 <h3 className="text-xl font-semibold mb-1">Full‑Service Moving</h3>
-                <p className="text-sm text-gray-600">Packing, loading, assembly and storage for a complete moving solution.</p>
+                <p className="text-sm opacity-90">Packing, loading, assembly and storage for a complete moving solution.</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Promise Section */}
+      <section className="py-16">
+        <div className="container max-w-5xl">
+          <h2 className="text-3xl font-semibold text-center mb-8">Our Promise</h2>
+          <div className="space-y-6 text-gray-700 text-sm">
+            <p>
+              <strong>Stress‑free, full‑service moves.</strong> We manage your
+              entire move from start to finish — including packing supplies, junk
+              removal and assembly/disassembly — so you can sit back and relax【531961792645271†L79-L85】.
+            </p>
+            <p>
+              <strong>Clear pricing and honest quotes.</strong> We’re happy to
+              discuss every detail of your move and billing before you book.
+              There are no hidden fees and no surprises【531961792645271†L90-L97】.
+            </p>
+            <p>
+              <strong>Proven quality &amp; experience.</strong> Our professional
+              team is licensed and insured with years of moving experience and
+              high customer satisfaction【531961792645271†L126-L143】【117233856102567†L199-L202】.
+            </p>
+            <p>
+              <strong>Comprehensive services.</strong> We offer local, long‑distance
+              and office moves, along with storage solutions and labor‑only
+              options to meet any need【531961792645271†L114-L121】.
+            </p>
           </div>
         </div>
       </section>
